@@ -1,0 +1,263 @@
+/* CSS Document */
+
+body {
+	margin: 0;
+	text-align: left;
+	font-family: "Roboto", "Poppins", "Montserrat";
+}
+
+h1 {
+	color: #142850;
+}
+
+h2 {
+	color: #27496d;
+}
+
+p {
+	color: #0c7b93;
+}
+
+.main-text {
+	font-family: Roboto;
+	font-size: 1.125rem;
+}
+
+.author-text {
+	font-family: Poppins;
+	color: #393e46;
+	font-size: 1.5rem;
+}
+
+.top-container {
+	background-color: #e4epf5;
+	position: relative;
+	padding-top: 100px;
+	text-align: center;
+	padding-bottom: 0;
+}
+
+.middle-container {
+	margin: 100px 0;
+}
+
+.bottom-container {
+	background-color: blue;
+	margin: 100px 0;
+	text-align: center;
+}
+
+.profile-container {
+	background-color: #fff;
+	text-align: center;
+}
+
+.profile-pic {
+	
+}
+
+.main {
+	padding: 2rem 1rem;
+}
+
+.blog-container {
+	width: 1140px;
+	margin: 20px auto 0 auto;
+}
+
+.col_one,
+.col_two,
+.col_three {
+	display: flex;
+	flex-direction: column;
+}
+
+/*COMMUNTIY SECTION*/
+
+.community-copy,
+.monthly-copy,
+.why-copy {
+	padding: 30px;
+}
+
+.community-copy img {
+	padding-bottom: 0;
+}
+
+
+.community-copy {
+	background-color: #fff;
+	border-radius: 8px 8px 0 0;
+}
+
+.community-copy h1 {
+	font-size: 2rem;
+	color: #142850;
+	text-align: center;
+}
+
+.community-copy h2 {
+	font-size: 1.3rem;
+	color: #27496d;
+	margin: 15px 0;
+	font-weight: 300;
+}
+
+.community-copy p {
+	font-size: 1rem;
+	color: #4BB6CD;
+	line-height: 1.8;
+}
+ 
+.monthly-copy {
+	background-color: #54B3C8;
+	color: #e4epf5;
+}
+
+.monthly-copy h2,
+.why-copy h2 {
+	font-weight: 300;
+	font-size: 1.5rem;
+	text-align: center;
+	text-decoration: none;
+	padding: 4rem;
+}
+
+.monthly-copy p {
+	margin: 15px 0;
+	font-weight: 300;
+}
+
+.monthly-copy span {
+	font-size: 2rem;
+	margin-right: 10px;
+	font-weight: 700;
+}
+
+.monthly-copy a {
+	display: block;
+	margin-top: 25px;
+	background-color: #0B667A;
+	color: #fff;
+	width: 100%;
+	padding: 15px 0;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 4px;
+	box-shadow: 0px 5px 12px rgba(0,0,0,0.3);
+
+}
+
+.monthly-copy h1 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.monthly-copy img {
+	align: center;
+}
+
+/*WHY*/
+
+.why-copy {
+	background-color: #4ABEBD;
+	color: #0B667A;
+	border-radius:  0 0 8px 8px;
+}
+
+.why-copy h1 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.why-copy h2 {
+	margin-bottom: 15px;
+}
+
+.why-copy li {
+	list-style: none;
+	padding: 5px 0;
+	font-weight: 300;
+}
+
+footer {
+	padding: 1rem;
+}
+
+footer p {
+	font-size: 0.3rem;
+	color: #000;
+}
+
+footer span {
+	color: hsl(71, 73%, 54%);
+}
+
+@media screen and (min-width: 768px) {
+	
+	.main {
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0;
+	}
+	
+	.container {
+		max-width: 800px;
+		align-items: center;
+	}
+	
+	.community-copy {
+		padding: 3rem;
+	}
+	
+	.community-copy p {
+		width: 76%;
+	}
+	
+	.monthly-copy,
+	.why-copy {
+		padding: 3rem 2rem 2rem 3rem;
+	}
+	
+	.col_two,
+	.col_three {
+		flex-basis: 50%;
+	}
+	
+	.monthly-copy {
+		border-radius: 0 0 0 8px;
+	}
+	
+	
+	
+	.why-copy {
+		border-radius: 0 0 8px 0;
+	}
+}
+
+.about h2 {
+	color: #e4epf5;
+	text-decoration: none;
+	
+}
+
+.li {
+	font-size: 2rem;
+}
+
+.gif {
+	width: 500px;
+	height: 420px;
+	align-self: center;
+}
+
+.section {
+	font-size: 3rem;
+}
+
+.title {
+	font-size: 1.5rem;
+	font-style: italic;
+}
